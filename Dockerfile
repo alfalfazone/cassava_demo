@@ -10,4 +10,4 @@ RUN pip install --no-cache-dir --retries 3 --timeout 300 -r requirements.txt
 COPY . .
 
 # 使用 flask run，Render 會提供 PORT
-CMD ["flask", "--app", "app.py", "run", "--host=0.0.0.0", "--port=${PORT}"]
+CMD flask --app app.py run --host=0.0.0.0 --port=$PORT
