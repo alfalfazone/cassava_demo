@@ -1,0 +1,13 @@
+flask
+line-bot-sdk
+pillow
+numpy
+matplotlib
+xarray
+netcdf4
+pygrib
+scipy
+scikit-learn
+torch
+pandas
+chromadb
