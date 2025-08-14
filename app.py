@@ -68,10 +68,6 @@ def getllmresponse(user_input, apikey=llm_api_key, modelname=modelname):
         "model": f"{modelname}",
         "messages": [
             {
-                "role": "system",
-                "content": "你是一個繁體中文助手。專門回答木薯相關問題，其他一概不回答。"
-            },
-            {
                 "role": "user",
                 "content": f"{user_input}"
             }
